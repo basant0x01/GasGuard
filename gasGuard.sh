@@ -32,6 +32,25 @@ function useCustomError() {
 function increamentAndDecrement() {
     echo -e "*****************************************************************************"
     source increament_and_decrement.sh
+    bitShiftingForDivisionAndMultiplication
+}
+
+function bitShiftingForDivisionAndMultiplication() {
+    echo -e "*****************************************************************************"
+    source bit_shifting_division_multiplication.sh
+    calldataInsteadOfMemory
+}
+
+function calldataInsteadOfMemory() {
+    echo -e "*****************************************************************************"
+    source calldata_instead_memory_in_function.sh
+    assembly_for_address0
+}
+
+function assembly_for_address0() {
+    echo -e "*****************************************************************************"
+    source assembly_for_address0.sh
+    finalReport
 }
 
 # Parse command line arguments
