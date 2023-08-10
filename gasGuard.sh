@@ -50,7 +50,6 @@ function calldataInsteadOfMemory() {
 function assembly_for_address0() {
     echo -e "*****************************************************************************"
     source assembly_for_address0.sh
-    finalReport
 }
 
 # Parse command line arguments
