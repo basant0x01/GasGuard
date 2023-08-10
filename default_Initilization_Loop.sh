@@ -1,5 +1,6 @@
- echo -e "\n\n\e[32mGAS: DEFAULT INITIALIZATION ISSUE\e[0m"
-    grep -nE 'for *\(.*i *= *0.*;.*\)' "$input_file" | while IFS= read -r line; do
+echo -e "\n\n\e[32mTITLE: DEFAULT INITIALIZATION ISSUE\e[0m"
+echo -e "\e[32mFILE: $input_file\e[0m"
+grep -nE '=[[:space:]]*0[[:space:]]*;' "$input_file" | while IFS= read -r line; do
         echo "-----------------------------------------------------------------------------"
         echo "LINE: ${line/        /}"  # Remove 8 spaces before "for"
         echo "-----------------------------------------------------------------------------"
