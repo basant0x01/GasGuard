@@ -1,5 +1,7 @@
-echo -e "\n\n\e[32mGAS: USE ++i AND --i INSTEAD OF OTHER INC/DEC\e[0m"
-grep -nE '[[:alnum:]_]+\+\+|[[:alnum:]_]+--|i\+\+|i--' "$input_file" | while IFS= read -r line; do        echo "-----------------------------------------------------------------------------"
+echo -e "\n\n\e[32mTITLE: USE ++i AND --i INSTEAD OF OTHER INC/DEC\e[0m"
+echo -e "\e[32mFILE: $input_file\e[0m"
+grep -nE '[[:alnum:]_]+\+\+|[[:alnum:]_]+--|i\+\+|i--' "$input_file" | while IFS= read -r line; do        
+        echo "-----------------------------------------------------------------------------"
         echo "LINE: ${line/        /}"  # Remove 8 spaces before "for"
         echo "-----------------------------------------------------------------------------"
 done
