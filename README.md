@@ -24,6 +24,7 @@ gasGuard is able to find vulnerable code related to the list below
 More are coming soon..
 
 ## Demo Output
-![image](https://github.com/basant0x01/GasGuard/assets/123530150/d3a62495-2bea-4361-a79c-41a7377a8aa4)
+![image](https://github.com/basant0x01/GasGuard/assets/123530150/e95a1b94-57ae-4cfd-835b-89b85d24e125)
+
 
 
