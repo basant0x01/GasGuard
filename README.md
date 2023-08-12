@@ -21,7 +21,7 @@ gasGuard is able to find vulnerable code related to the list below
 8. USE CALLDATA INSTEAD OF MEMORY FOR FUNCTIONS
 9. USE ASSEMBLY TO CHECK FOR ADDRESS(0)
 
-More are comming soon
+More are coming soon..
 
 ## Demo Output
 ![image](https://github.com/basant0x01/GasGuard/assets/123530150/d3a62495-2bea-4361-a79c-41a7377a8aa4)
