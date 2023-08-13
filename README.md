@@ -1,11 +1,16 @@
-# Gas Guard
+# Gas Guard v0.2
 ![image](https://github.com/basant0x01/GasGuard/assets/123530150/5aa2fb29-860d-4c60-a1a2-ca24f8429723)
 
 Gas Guard is a straightforward bash script that identifies susceptible gas leak-vulnerable code using grep regex within smart contracts.
 
 ## Usage
+For a single input, use the -i flag
 ```
 ./gasGuard.sh -i contract.sol
+```
+And for multiple inputs, use the -mi flag
+```
+./gasGuard.sh -mi contract.sol another-contract.sol
 ```
 
 ## Gas Optimization Issues
